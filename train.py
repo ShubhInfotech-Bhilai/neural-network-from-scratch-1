@@ -3,8 +3,8 @@ from model import NeuralNetwork
 
 # PART 1 - LOAD AND PREPROCESS DATA
 
-train_data = np.loadtxt("coding_test_dl_intern/mnist_train.csv", delimiter=',')
-test_data = np.loadtxt("coding_test_dl_intern/mnist_test.csv", delimiter=',')
+train_data = np.loadtxt("data/mnist_train.csv", delimiter=',')
+test_data = np.loadtxt("data/mnist_test.csv", delimiter=',')
 
 train_labels = train_data[:, 0]
 train_images = train_data[:, 1:]
